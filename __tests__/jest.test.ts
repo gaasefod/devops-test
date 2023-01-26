@@ -40,4 +40,8 @@ describe("Math", () => {
   test("3 % -1 equals 0", () => {
     expect(Math.modulo(3, -1)).toBe(0);
   });
+
+  test("5 + 5 equals 10", () => {
+    expect(Math.sum(5, 5)).toBe(10);
+  });
 });
