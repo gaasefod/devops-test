@@ -1,8 +1,8 @@
 import * as Math from "@/utils/math";
 
 describe("Math", () => {
-  test("2 + 2 equals 4", () => {
-    expect(Math.sum(2, 2)).toBe(4);
+  test("2 + 3 equals 4", () => {
+    expect(Math.sum(2, 3)).toBe(4);
   });
 
   test("2 - 2 equals 0", () => {
